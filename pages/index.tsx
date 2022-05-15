@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Masthead from '../components/masthead'
+import News from '../components/news'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Diversorial</title>
         <meta name="description" content="Realidad virtual, narrativa y arte para personas sensorialmente diversas" />
@@ -14,6 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Masthead />
+      <News />
     </div>
   )
 }
