@@ -1,4 +1,3 @@
-import { AppProps } from 'next/app'
 import React, {useCallback, useEffect, useState} from 'react'
 
 interface ScrollValue {
